@@ -8,24 +8,30 @@
 import SwiftUI
 
 struct MainCardView: View {
+    let avatar: String
+    let name: String
+    let title: String
+    let date: String
+    let time: String
+    
     var body: some View {
         VStack (alignment: .center, spacing: 16) {
             HStack (alignment: .center, spacing: 12) {
                 ZStack {
                     Rectangle()
                         .foregroundColor(.white)
-                    Image("doctor1")
+                    Image(avatar)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                 }
                 .frame(width: 48, height: 48)
                 .cornerRadius(100)
                 VStack (alignment: .leading, spacing: 8) {
-                    Text("Dr. Imran Syahir")
+                    Text(name)
                         .font(Font.custom("Poppins-Bold", size: 16))
                         .foregroundColor(.white)
                         .fontWeight(.bold)
-                    Text("General Doctor")
+                    Text(title)
                         .font(Font.custom("Poppins-Regular", size: 12))
                         .foregroundColor(.white)
                 }
@@ -40,13 +46,13 @@ struct MainCardView: View {
                 HStack (spacing: 8) {
                     Image(systemName: "calendar")
                         .frame(width: 16, height: 16)
-                    Text("Sunday, 12 June")
+                    Text(date)
                         .font(Font.custom("Poppins-Regular", size: 12))
                 }
                 HStack (spacing: 8) {
                     Image(systemName: "clock")
                         .frame(width: 16, height: 16)
-                    Text("11:00 - 12:00 AM")
+                    Text(time)
                         .font(Font.custom("Poppins-Regular", size: 12))
                 }
             }
