@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2D519D2B03E7D20079ABEC /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D519C2B03E7D20079ABEC /* SectionView.swift */; };
 		CE60283A2B03A62F00A3740D /* EffectiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6028392B03A62F00A3740D /* EffectiveApp.swift */; };
 		CE60283C2B03A62F00A3740D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60283B2B03A62F00A3740D /* ContentView.swift */; };
 		CE60283E2B03A63200A3740D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE60283D2B03A63200A3740D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE2D519C2B03E7D20079ABEC /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		CE6028362B03A62F00A3740D /* Effective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Effective.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6028392B03A62F00A3740D /* EffectiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveApp.swift; sourceTree = "<group>"; };
 		CE60283B2B03A62F00A3740D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				CE60283B2B03A62F00A3740D /* ContentView.swift */,
 				CE6028472B03AE5F00A3740D /* HeaderView.swift */,
 				CE6028492B03C43600A3740D /* MainCardView.swift */,
+				CE2D519C2B03E7D20079ABEC /* SectionView.swift */,
 				CE60284B2B03D28D00A3740D /* Poppins-Bold.ttf */,
 				CE60284C2B03D28D00A3740D /* Poppins-Regular.ttf */,
 				CE60283D2B03A63200A3740D /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 			files = (
 				CE60283C2B03A62F00A3740D /* ContentView.swift in Sources */,
 				CE6028482B03AE5F00A3740D /* HeaderView.swift in Sources */,
+				CE2D519D2B03E7D20079ABEC /* SectionView.swift in Sources */,
 				CE60283A2B03A62F00A3740D /* EffectiveApp.swift in Sources */,
 				CE60284A2B03C43600A3740D /* MainCardView.swift in Sources */,
 			);
