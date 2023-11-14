@@ -66,8 +66,8 @@ struct ContentView: View {
                     }
                 }
                 .padding(24)
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
             }
+            NavigationBarView(selected: "Home")
         }
     }
 }

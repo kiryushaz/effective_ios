@@ -10,6 +10,7 @@
 		CE2D519D2B03E7D20079ABEC /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D519C2B03E7D20079ABEC /* SectionView.swift */; };
 		CE2D519F2B03E9E40079ABEC /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D519E2B03E9E40079ABEC /* Poppins-SemiBold.ttf */; };
 		CE2D51A12B03EB040079ABEC /* DoctorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D51A02B03EB040079ABEC /* DoctorCardView.swift */; };
+		CE2D51A32B03FA1E0079ABEC /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D51A22B03FA1E0079ABEC /* NavigationView.swift */; };
 		CE60283A2B03A62F00A3740D /* EffectiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6028392B03A62F00A3740D /* EffectiveApp.swift */; };
 		CE60283C2B03A62F00A3740D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60283B2B03A62F00A3740D /* ContentView.swift */; };
 		CE60283E2B03A63200A3740D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE60283D2B03A63200A3740D /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		CE2D519C2B03E7D20079ABEC /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		CE2D519E2B03E9E40079ABEC /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		CE2D51A02B03EB040079ABEC /* DoctorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCardView.swift; sourceTree = "<group>"; };
+		CE2D51A22B03FA1E0079ABEC /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		CE6028362B03A62F00A3740D /* Effective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Effective.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6028392B03A62F00A3740D /* EffectiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveApp.swift; sourceTree = "<group>"; };
 		CE60283B2B03A62F00A3740D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				CE6028492B03C43600A3740D /* MainCardView.swift */,
 				CE2D51A02B03EB040079ABEC /* DoctorCardView.swift */,
 				CE2D519C2B03E7D20079ABEC /* SectionView.swift */,
+				CE2D51A22B03FA1E0079ABEC /* NavigationView.swift */,
 				CE60284B2B03D28D00A3740D /* Poppins-Bold.ttf */,
 				CE60284C2B03D28D00A3740D /* Poppins-Regular.ttf */,
 				CE2D519E2B03E9E40079ABEC /* Poppins-SemiBold.ttf */,
@@ -169,6 +172,7 @@
 				CE60283A2B03A62F00A3740D /* EffectiveApp.swift in Sources */,
 				CE60284A2B03C43600A3740D /* MainCardView.swift in Sources */,
 				CE2D51A12B03EB040079ABEC /* DoctorCardView.swift in Sources */,
+				CE2D51A32B03FA1E0079ABEC /* NavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
