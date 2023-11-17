@@ -14,17 +14,18 @@ struct HeaderView: View {
     var body: some View {
         HStack (alignment: .center) {
             VStack (alignment: .leading) {
-                Text("Hello,")
-                    .font(Font.custom("Poppins-Regular", size: 16))
-                    .foregroundColor(Color(red: 0.53, green: 0.59, blue: 0.73))
-                Text("Hi, \(name)!")
-                    .font(Font.custom("Poppins-Bold", size: 20))
+                Text("hello-text".localized)
+                    .font(AppTheme.Fonts.poppins_regular_16)
+                    .foregroundColor(AppTheme.Colors.grayTextColor)
+                Text("hi-user \(name)")
+                    .font(AppTheme.Fonts.poppins_bold_20)
             }
             Spacer()
             Image(avatar)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 56, height: 56)
+                .frame(width: AppTheme.Values.imgAvatarSize,
+                       height: AppTheme.Values.imgAvatarSize)
                 .clipped()
         }
     }

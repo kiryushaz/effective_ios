@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Effective
+
+  Created by  User on 18.11.2023.
+  
+*/
+
+"search-field-placeholder" = "Search doctor or health issue";
+"near-doctor" = "Near Doctor";
+"hello-text" = "Hello,";
+"hi-user %@" = "Hi, %@!";
+"open-at %@" = "Open at %@";
+"main-date" = "Sunday, 12 June";
+"main-time" = "11:00 - 12:00 AM";

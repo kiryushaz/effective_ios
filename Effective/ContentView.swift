@@ -11,61 +11,52 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ScrollView {
-                VStack (spacing: 32) {
+                VStack (spacing: AppTheme.Spacing.huge) {
                     HeaderView(name: "James", avatar: "avatar")
-                    VStack (spacing: 24) {
-                        VStack (spacing: 20) {
+                    VStack (spacing: AppTheme.Spacing.large) {
+                        VStack (spacing: AppTheme.Spacing.medium) {
                             MainCardView(
-                                avatar: "doctor1",
-                                name: "Dr. Imran Syahir",
-                                title: "General Doctor",
-                                date: "Sunday, 12 June",
-                                time: "11:00 - 12:00 AM"
+                                doctor: Doctor.sampleData[1],
+                                date: "main-date".localized,
+                                time: "main-time".localized
                             )
-                            HStack (alignment: .center, spacing: 12) {
+                            HStack (alignment: .center,
+                                    spacing: AppTheme.Spacing.small) {
                                 Image(systemName: "magnifyingglass")
-                                    .foregroundColor(Color(red: 0.53, green: 0.59, blue: 0.73))
-                                    .frame(width: 24, height: 24)
-                                Text("Search doctor or health issue")
-                                    .font(Font.custom("Poppins-Regular", size: 15))
-                                    .foregroundColor(Color(red: 0.53, green: 0.59, blue: 0.73))
+                                    .foregroundColor(AppTheme.Colors.grayTextColor)
+                                    .frame(
+                                        width: AppTheme.Values.imgSize24,
+                                        height: AppTheme.Values.imgSize24
+                                    )
+                                Text("search-field-placeholder".localized)
+                                    .font(AppTheme.Fonts.poppins_regular_15)
+                                    .foregroundColor(AppTheme.Colors.grayTextColor)
                             }
-                            .padding(16)
+                            .padding(AppTheme.Values.searchFieldPadding)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .background(Color(red: 0.98, green: 0.98, blue: 0.98))
-                            .cornerRadius(12)
+                            .background(AppTheme.Colors.white98)
+                            .cornerRadius(AppTheme.Values.imgCornerRadius)
                         }
-                        HStack (alignment: .top, spacing: 13) {
-                            SectionView(icon: "snowflake", text: "Covid 19")
-                            SectionView(icon: "person.fill.badge.plus", text: "Doctor")
-                            SectionView(icon: "link", text: "Medicine")
-                            SectionView(icon: "stethoscope", text: "Hospital")
+                        HStack (alignment: .top,
+                                spacing: AppTheme.Spacing.cat) {
+                            ForEach(Category.sampleData) { cat in
+                                CategoryView(category: cat)
+                            }
                         }
                     }
-                    VStack (alignment: .leading, spacing: 16) {
-                        Text("Near Doctor")
-                            .font(Font.custom("Poppins-SemiBold", size: 16))
-                        VStack (alignment: .leading, spacing: 12) {
-                            DoctorCardView(
-                                avatar: "doctor2",
-                                name: "Dr. Joseph Brostito",
-                                title: "Dental Specialist",
-                                distance: "1.2 KM",
-                                avg_rating: "4,8",
-                                cnt_ratings: "120",
-                                time: "17.00")
-                            DoctorCardView(
-                                avatar: "doctor1",
-                                name: "Dr. Imran Syahir",
-                                title: "General Doctor",
-                                distance: "1.2 KM",
-                                avg_rating: "4,8",
-                                cnt_ratings: "120",
-                                time: "17.00")
+                    VStack (alignment: .leading,
+                            spacing: AppTheme.Spacing.short) {
+                        Text("near-doctor".localized)
+                            .font(AppTheme.Fonts.popping_semibold_16)
+                        VStack (alignment: .leading,
+                                spacing: AppTheme.Spacing.small) {
+                            ForEach(Doctor.sampleData) { doctor in
+                                DoctorCardView(doctor: doctor)
+                            }
                         }
                     }
                 }
-                .padding(24)
+                .padding(AppTheme.Values.contentViewPadding)
             }
             NavigationBarView(selected: "Home")
         }
