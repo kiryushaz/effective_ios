@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2C79552B07F1C600459400 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE2C79572B07F1C600459400 /* Localizable.strings */; };
+		CE2C79592B0806EF00459400 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C79582B0806EF00459400 /* Localizable.swift */; };
+		CE2D519D2B03E7D20079ABEC /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D519C2B03E7D20079ABEC /* CategoryView.swift */; };
+		CE2D519F2B03E9E40079ABEC /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D519E2B03E9E40079ABEC /* Poppins-SemiBold.ttf */; };
+		CE2D51A12B03EB040079ABEC /* DoctorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D51A02B03EB040079ABEC /* DoctorCardView.swift */; };
+		CE2D51A32B03FA1E0079ABEC /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D51A22B03FA1E0079ABEC /* NavigationView.swift */; };
+		CE3204542B072D3400802F34 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3204532B072D3400802F34 /* AppTheme.swift */; };
+		CE3204572B07328000802F34 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3204562B07328000802F34 /* Category.swift */; };
+		CE3204592B07338100802F34 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3204582B07338100802F34 /* Doctor.swift */; };
 		CE60283A2B03A62F00A3740D /* EffectiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6028392B03A62F00A3740D /* EffectiveApp.swift */; };
 		CE60283C2B03A62F00A3740D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60283B2B03A62F00A3740D /* ContentView.swift */; };
 		CE60283E2B03A63200A3740D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE60283D2B03A63200A3740D /* Assets.xcassets */; };
 		CE6028412B03A63200A3740D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6028402B03A63200A3740D /* Preview Assets.xcassets */; };
+		CE6028482B03AE5F00A3740D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6028472B03AE5F00A3740D /* HeaderView.swift */; };
+		CE60284A2B03C43600A3740D /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6028492B03C43600A3740D /* MainCardView.swift */; };
+		CE60284D2B03D28D00A3740D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE60284B2B03D28D00A3740D /* Poppins-Bold.ttf */; };
+		CE60284E2B03D28D00A3740D /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE60284C2B03D28D00A3740D /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE2C79562B07F1C600459400 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE2C79582B0806EF00459400 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		CE2D519C2B03E7D20079ABEC /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		CE2D519E2B03E9E40079ABEC /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE2D51A02B03EB040079ABEC /* DoctorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCardView.swift; sourceTree = "<group>"; };
+		CE2D51A22B03FA1E0079ABEC /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		CE3204532B072D3400802F34 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		CE3204562B07328000802F34 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CE3204582B07338100802F34 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 		CE6028362B03A62F00A3740D /* Effective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Effective.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6028392B03A62F00A3740D /* EffectiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveApp.swift; sourceTree = "<group>"; };
 		CE60283B2B03A62F00A3740D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE60283D2B03A63200A3740D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6028402B03A63200A3740D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE6028472B03AE5F00A3740D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		CE6028492B03C43600A3740D /* MainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardView.swift; sourceTree = "<group>"; };
+		CE60284B2B03D28D00A3740D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		CE60284C2B03D28D00A3740D /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		CE60284F2B03D2BD00A3740D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +59,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3204512B072CAB00802F34 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE6028472B03AE5F00A3740D /* HeaderView.swift */,
+				CE6028492B03C43600A3740D /* MainCardView.swift */,
+				CE2D51A02B03EB040079ABEC /* DoctorCardView.swift */,
+				CE2D519C2B03E7D20079ABEC /* CategoryView.swift */,
+				CE2D51A22B03FA1E0079ABEC /* NavigationView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE3204522B072CE200802F34 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE60284B2B03D28D00A3740D /* Poppins-Bold.ttf */,
+				CE60284C2B03D28D00A3740D /* Poppins-Regular.ttf */,
+				CE2D519E2B03E9E40079ABEC /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CE3204552B072FAC00802F34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE3204562B07328000802F34 /* Category.swift */,
+				CE3204582B07338100802F34 /* Doctor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CE60282D2B03A62F00A3740D = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +109,15 @@
 		CE6028382B03A62F00A3740D /* Effective */ = {
 			isa = PBXGroup;
 			children = (
+				CE3204552B072FAC00802F34 /* Models */,
+				CE3204522B072CE200802F34 /* Fonts */,
+				CE3204512B072CAB00802F34 /* Components */,
+				CE60284F2B03D2BD00A3740D /* Info.plist */,
+				CE2C79572B07F1C600459400 /* Localizable.strings */,
+				CE2C79582B0806EF00459400 /* Localizable.swift */,
 				CE6028392B03A62F00A3740D /* EffectiveApp.swift */,
 				CE60283B2B03A62F00A3740D /* ContentView.swift */,
+				CE3204532B072D3400802F34 /* AppTheme.swift */,
 				CE60283D2B03A63200A3740D /* Assets.xcassets */,
 				CE60283F2B03A63200A3740D /* Preview Content */,
 			);
@@ -125,8 +190,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2D519F2B03E9E40079ABEC /* Poppins-SemiBold.ttf in Resources */,
+				CE2C79552B07F1C600459400 /* Localizable.strings in Resources */,
 				CE6028412B03A63200A3740D /* Preview Assets.xcassets in Resources */,
+				CE60284D2B03D28D00A3740D /* Poppins-Bold.ttf in Resources */,
 				CE60283E2B03A63200A3740D /* Assets.xcassets in Resources */,
+				CE60284E2B03D28D00A3740D /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +206,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2C79592B0806EF00459400 /* Localizable.swift in Sources */,
 				CE60283C2B03A62F00A3740D /* ContentView.swift in Sources */,
+				CE6028482B03AE5F00A3740D /* HeaderView.swift in Sources */,
+				CE2D519D2B03E7D20079ABEC /* CategoryView.swift in Sources */,
 				CE60283A2B03A62F00A3740D /* EffectiveApp.swift in Sources */,
+				CE60284A2B03C43600A3740D /* MainCardView.swift in Sources */,
+				CE3204572B07328000802F34 /* Category.swift in Sources */,
+				CE3204592B07338100802F34 /* Doctor.swift in Sources */,
+				CE3204542B072D3400802F34 /* AppTheme.swift in Sources */,
+				CE2D51A12B03EB040079ABEC /* DoctorCardView.swift in Sources */,
+				CE2D51A32B03FA1E0079ABEC /* NavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE2C79572B07F1C600459400 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2C79562B07F1C600459400 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE6028422B03A63200A3740D /* Debug */ = {
@@ -269,6 +358,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Effective/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Effective/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +387,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Effective/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Effective/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
