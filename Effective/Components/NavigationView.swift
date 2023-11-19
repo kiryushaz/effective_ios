@@ -34,7 +34,7 @@ struct NavigationElement: View {
     var body: some View {
         if (category.text == selected) {
             HStack (alignment: .center, spacing: AppTheme.Spacing.tiny) {
-                Image(systemName: category.icon)
+                Image(category.icon)
                     .resizable()
                     .frame(width: AppTheme.Values.imgSize24,
                            height: AppTheme.Values.imgSize24)
@@ -45,6 +45,9 @@ struct NavigationElement: View {
             .foregroundColor(AppTheme.Colors.navElement)
             .background(AppTheme.Colors.navElementBg)
             .cornerRadius(AppTheme.Values.imgCornerRadius)
+            .onTapGesture {
+                print("Viewing NavElement \(category.text)")
+            }
         } else {
             HStack (alignment: .center, spacing: AppTheme.Spacing.tiny) {
                 Image(systemName: category.icon)
@@ -54,6 +57,9 @@ struct NavigationElement: View {
             }
             .padding(AppTheme.Values.navigationPadding)
             .frame(alignment: .center)
+            .onTapGesture {
+                print("NavElement \(category.text)")
+            }
         }
     }
 }

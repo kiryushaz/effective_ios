@@ -16,15 +16,15 @@ struct Category : Identifiable {
 extension Category {
     static let sampleData: [Category] =
     [
-        Category(icon: "snowflake", text: "Covid 19"),
-        Category(icon: "person.fill.badge.plus", text: "Doctor"),
+        Category(icon: "sun", text: "Covid 19"),
+        Category(icon: "profile-add", text: "Doctor"),
         Category(icon: "link", text: "Medicine"),
-        Category(icon: "stethoscope", text: "Hospital")
+        Category(icon: "hospital", text: "Hospital")
     ]
     
     static let navElement: [Category] =
     [
-        Category(icon: "house.fill", text: "Home"),
+        Category(icon: "home", text: "Home"),
         Category(icon: "calendar", text: "Calendar"),
         Category(icon: "message", text: "Message"),
         Category(icon: "person", text: "Person")

@@ -22,7 +22,8 @@ struct ContentView: View {
                             )
                             HStack (alignment: .center,
                                     spacing: AppTheme.Spacing.small) {
-                                Image(systemName: "magnifyingglass")
+                                Image("search-normal")
+                                    .resizable()
                                     .foregroundColor(AppTheme.Colors.grayTextColor)
                                     .frame(
                                         width: AppTheme.Values.imgSize24,
@@ -36,6 +37,9 @@ struct ContentView: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .background(AppTheme.Colors.white98)
                             .cornerRadius(AppTheme.Values.imgCornerRadius)
+                            .onTapGesture {
+                                print("Search field")
+                            }
                         }
                         HStack (alignment: .top,
                                 spacing: AppTheme.Spacing.cat) {

@@ -35,15 +35,18 @@ struct MainCardView: View {
                         .foregroundColor(.white)
                 }
                 Spacer()
-                Image(systemName: "chevron.right")
+                Image("arrow-right")
                     .foregroundColor(.white)
+                    .onTapGesture {
+                        print("Clicked")
+                    }
             }
             .padding(AppTheme.Padding.none)
             .frame(maxWidth: .infinity, alignment: .center)
             Divider().background(.white)
             HStack (alignment: .top, spacing: AppTheme.Spacing.huge) {
                 HStack (spacing: AppTheme.Spacing.tiny) {
-                    Image(systemName: "calendar")
+                    Image("calendar")
                         .resizable()
                         .frame(width: AppTheme.Values.imgSize16,
                                height: AppTheme.Values.imgSize16)
@@ -51,7 +54,7 @@ struct MainCardView: View {
                         .font(AppTheme.Fonts.poppins_regular_12)
                 }
                 HStack (spacing: AppTheme.Spacing.tiny) {
-                    Image(systemName: "clock")
+                    Image("clock")
                         .resizable()
                         .frame(width: AppTheme.Values.imgSize16,
                                height: AppTheme.Values.imgSize16)

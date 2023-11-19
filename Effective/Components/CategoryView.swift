@@ -18,11 +18,15 @@ struct CategoryView: View {
                            height: AppTheme.Values.rectangleSize)
                     .foregroundColor(AppTheme.Colors.white98)
                     .cornerRadius(AppTheme.Values.cornerRadius100)
-                Image(systemName: category.icon)
+                Image(category.icon)
                     .resizable()
                     .frame(width: AppTheme.Values.imgSize24,
                            height: AppTheme.Values.imgSize24)
-            }.foregroundColor(AppTheme.Colors.primaryColor)
+            }
+            .foregroundColor(AppTheme.Colors.primaryColor)
+            .onTapGesture {
+                print("Category \(category.text)")
+            }
             Text(category.text)
                 .font(AppTheme.Fonts.poppins_regular_15)
                 .foregroundColor(AppTheme.Colors.grayTextColor)

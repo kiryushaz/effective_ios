@@ -33,7 +33,7 @@ struct DoctorCardView: View {
                 }
                 Spacer()
                 HStack (spacing: AppTheme.Spacing.tiny) {
-                    Image(systemName: "location.north.fill")
+                    Image("location")
                         .resizable()
                         .frame(width: AppTheme.Values.imgSize16,
                                height: AppTheme.Values.imgSize16)
@@ -46,7 +46,7 @@ struct DoctorCardView: View {
             Divider().background(.white)
             HStack (alignment: .top, spacing: AppTheme.Spacing.huge) {
                 HStack (spacing: AppTheme.Spacing.tiny) {
-                    Image(systemName: "star.fill")
+                    Image("clock")
                         .resizable()
                         .frame(width: AppTheme.Values.imgSize16,
                                height: AppTheme.Values.imgSize16)
@@ -54,11 +54,11 @@ struct DoctorCardView: View {
                         .font(AppTheme.Fonts.poppins_regular_12)
                 }.foregroundColor(AppTheme.Colors.secondaryColor)
                 HStack (spacing: AppTheme.Spacing.tiny) {
-                    Image(systemName: "clock")
+                    Image("clock")
                         .resizable()
                         .frame(width: AppTheme.Values.imgSize16,
                                height: AppTheme.Values.imgSize16)
-                    Text("open-at \(doctor.time)".localized)
+                    Text("open-at \(doctor.time)")
                         .font(AppTheme.Fonts.poppins_regular_12)
                 }.foregroundColor(AppTheme.Colors.primaryColor)
             }
